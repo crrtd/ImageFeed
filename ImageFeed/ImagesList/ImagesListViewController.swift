@@ -45,18 +45,18 @@ extension ImagesListViewController: UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: ImagesListCell.reuseIdentifier, for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: ImageListCell.reuseIdentifier, for: indexPath)
         
-        guard let imageListCell = cell as? ImagesListCell else { return UITableViewCell() }
+        guard let imagesListCell = cell as? ImageListCell else { return UITableViewCell() }
         
-        configCell(for: imageListCell, with: indexPath)
+        configCell(for: imagesListCell, with: indexPath)
         
-        return imageListCell
+        return imagesListCell
     }
 }
 
 extension ImagesListViewController {
-    func configCell(for cell: ImagesListCell, with indexPath: IndexPath) {
+    func configCell(for cell: ImageListCell, with indexPath: IndexPath) {
         guard let image = UIImage(named: photosName[indexPath.row]) else { return }
         
         cell.cellImage.image = image
@@ -67,3 +67,4 @@ extension ImagesListViewController {
         cell.likeButton.setImage(likeImage, for: .normal)
     }
 }
+
