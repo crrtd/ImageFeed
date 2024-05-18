@@ -17,6 +17,7 @@
 		053D02502BE6EA0A00985773 /* ImageFeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053D024F2BE6EA0A00985773 /* ImageFeedTests.swift */; };
 		053D025A2BE6EA0B00985773 /* ImageFeedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053D02592BE6EA0B00985773 /* ImageFeedUITests.swift */; };
 		053D025C2BE6EA0B00985773 /* ImageFeedUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053D025B2BE6EA0B00985773 /* ImageFeedUITestsLaunchTests.swift */; };
+		05F235B62BF8C468000FA0F7 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F235B52BF8C468000FA0F7 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		053D02552BE6EA0B00985773 /* ImageFeedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageFeedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		053D02592BE6EA0B00985773 /* ImageFeedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFeedUITests.swift; sourceTree = "<group>"; };
 		053D025B2BE6EA0B00985773 /* ImageFeedUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFeedUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		05F235B52BF8C468000FA0F7 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 			children = (
 				053D023C2BE6EA0900985773 /* ImagesListViewController.swift */,
 				050551E32BEAB4BC0004778D /* ImagesListCell.swift */,
+				05F235B52BF8C468000FA0F7 /* ProfileViewController.swift */,
 			);
 			path = ImagesList;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 			files = (
 				053D023D2BE6EA0900985773 /* ImagesListViewController.swift in Sources */,
 				050551E42BEAB4BC0004778D /* ImagesListCell.swift in Sources */,
+				05F235B62BF8C468000FA0F7 /* ProfileViewController.swift in Sources */,
 				053D02392BE6EA0900985773 /* AppDelegate.swift in Sources */,
 				053D023B2BE6EA0900985773 /* SceneDelegate.swift in Sources */,
 			);
