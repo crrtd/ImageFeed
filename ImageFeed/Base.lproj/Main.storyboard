@@ -132,6 +132,9 @@
                                 </constraints>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" image="logoutButton"/>
+                                <connections>
+                                    <action selector="didTapLogoutButton" destination="3Eq-dq-nY1" eventType="touchUpInside" id="yqg-rv-3ry"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="avatar" translatesAutoresizingMaskIntoConstraints="NO" id="PB4-8t-TY5" userLabel="Avatar Image View">
                                 <rect key="frame" x="16" y="91" width="70" height="70"/>
@@ -159,6 +162,13 @@
                             <constraint firstItem="uaA-7M-L68" firstAttribute="trailing" secondItem="vcB-A5-2er" secondAttribute="trailing" constant="16" id="pCr-mB-qZ5"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="avatarImageView" destination="PB4-8t-TY5" id="eVp-Hb-akR"/>
+                        <outlet property="descriptionLabel" destination="gFM-u1-sMh" id="XcC-dC-5sk"/>
+                        <outlet property="loginNameLabel" destination="pck-mF-zSF" id="vlC-UA-aih"/>
+                        <outlet property="logoutButton" destination="BG8-pL-keD" id="T4c-UV-L7w"/>
+                        <outlet property="nameLabel" destination="vcB-A5-2er" id="pJH-ne-uzy"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2nf-dT-v1S" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

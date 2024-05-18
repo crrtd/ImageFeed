@@ -85,7 +85,6 @@
 			children = (
 				053D023C2BE6EA0900985773 /* ImagesListViewController.swift */,
 				050551E32BEAB4BC0004778D /* ImagesListCell.swift */,
-				05F235B52BF8C468000FA0F7 /* ProfileViewController.swift */,
 			);
 			path = ImagesList;
 			sourceTree = "<group>";
@@ -93,6 +92,7 @@
 		053D022C2BE6EA0900985773 = {
 			isa = PBXGroup;
 			children = (
+				05F235B72BF8E169000FA0F7 /* Profile */,
 				053D02372BE6EA0900985773 /* ImageFeed */,
 				053D024E2BE6EA0A00985773 /* ImageFeedTests */,
 				053D02582BE6EA0B00985773 /* ImageFeedUITests */,
@@ -139,6 +139,14 @@
 				053D025B2BE6EA0B00985773 /* ImageFeedUITestsLaunchTests.swift */,
 			);
 			path = ImageFeedUITests;
+			sourceTree = "<group>";
+		};
+		05F235B72BF8E169000FA0F7 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				05F235B52BF8C468000FA0F7 /* ProfileViewController.swift */,
+			);
+			path = Profile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
