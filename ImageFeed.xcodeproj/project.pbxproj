@@ -17,6 +17,7 @@
 		053D02502BE6EA0A00985773 /* ImageFeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053D024F2BE6EA0A00985773 /* ImageFeedTests.swift */; };
 		053D025A2BE6EA0B00985773 /* ImageFeedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053D02592BE6EA0B00985773 /* ImageFeedUITests.swift */; };
 		053D025C2BE6EA0B00985773 /* ImageFeedUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053D025B2BE6EA0B00985773 /* ImageFeedUITestsLaunchTests.swift */; };
+		059267D42BFE801100C89799 /* SingleImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059267D32BFE801100C89799 /* SingleImageViewController.swift */; };
 		05F235B62BF8C468000FA0F7 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F235B52BF8C468000FA0F7 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +53,7 @@
 		053D02552BE6EA0B00985773 /* ImageFeedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageFeedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		053D02592BE6EA0B00985773 /* ImageFeedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFeedUITests.swift; sourceTree = "<group>"; };
 		053D025B2BE6EA0B00985773 /* ImageFeedUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFeedUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		059267D32BFE801100C89799 /* SingleImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleImageViewController.swift; sourceTree = "<group>"; };
 		05F235B52BF8C468000FA0F7 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -92,7 +94,6 @@
 		053D022C2BE6EA0900985773 = {
 			isa = PBXGroup;
 			children = (
-				05F235B72BF8E169000FA0F7 /* Profile */,
 				053D02372BE6EA0900985773 /* ImageFeed */,
 				053D024E2BE6EA0A00985773 /* ImageFeedTests */,
 				053D02582BE6EA0B00985773 /* ImageFeedUITests */,
@@ -115,7 +116,9 @@
 			children = (
 				053D02382BE6EA0900985773 /* AppDelegate.swift */,
 				053D023A2BE6EA0900985773 /* SceneDelegate.swift */,
+				05F235B72BF8E169000FA0F7 /* Profile */,
 				050551E52BEAB4E50004778D /* ImagesList */,
+				059267D52BFEB9BE00C89799 /* SingleImageViewController */,
 				053D023E2BE6EA0900985773 /* Main.storyboard */,
 				053D02412BE6EA0A00985773 /* Assets.xcassets */,
 				053D02432BE6EA0A00985773 /* LaunchScreen.storyboard */,
@@ -139,6 +142,14 @@
 				053D025B2BE6EA0B00985773 /* ImageFeedUITestsLaunchTests.swift */,
 			);
 			path = ImageFeedUITests;
+			sourceTree = "<group>";
+		};
+		059267D52BFEB9BE00C89799 /* SingleImageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				059267D32BFE801100C89799 /* SingleImageViewController.swift */,
+			);
+			path = SingleImageViewController;
 			sourceTree = "<group>";
 		};
 		05F235B72BF8E169000FA0F7 /* Profile */ = {
@@ -284,6 +295,7 @@
 				050551E42BEAB4BC0004778D /* ImagesListCell.swift in Sources */,
 				05F235B62BF8C468000FA0F7 /* ProfileViewController.swift in Sources */,
 				053D02392BE6EA0900985773 /* AppDelegate.swift in Sources */,
+				059267D42BFE801100C89799 /* SingleImageViewController.swift in Sources */,
 				053D023B2BE6EA0900985773 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
